@@ -1,0 +1,6 @@
+<!-- app/views/user/login.rhtml -->
+<% form_tag(:action => "process_login") do %> 
+   Username: <%= text_field "user", "username" %>
+   Password: <%= password_field "user", "password" %>
+   <%= submit_tag %>
+<% end %>
