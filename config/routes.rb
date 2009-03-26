@@ -1,11 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :cards
-<<<<<<< HEAD:config/routes.rb
   map.resources :tags
-  
 
-=======
->>>>>>> b36df623f2f9f47afc530f95e51cfac52b7bbf37:config/routes.rb
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
